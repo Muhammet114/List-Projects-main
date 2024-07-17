@@ -38,7 +38,7 @@ function Page2() {
     {
       mainImage: image1,
       title: "Mens Casual Premium Slim Fit T-Shirts",
-      description: "High hhhhhh quality casual slim fit t-shirts for men.",
+      description: "High quality casual slim fit t-shirts for men.",
       modalTitle: "Image Carousel",
       images: [image1, image2, image3],
       modalTexts: ["modal4 text1", "modal text2", "modal text3"],
