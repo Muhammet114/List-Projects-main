@@ -1,0 +1,54 @@
+.cardContainer {
+  width: 375px;
+  height: 650px;
+  border-radius: 15px;
+}
+/* App.css */
+
+.details {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  max-height: 90vh; /* Ensure modal does not exceed viewport height */
+  overflow-y: auto; /* Make the modal content scrollable */
+  max-width: 400px;
+  /* height: 700px; */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 999;
+}
+
+.carousel .slide img {
+  display: block;
+  width: auto;
+  height: 275px;
+  margin: 0 auto;
+}
+.carousel .slide {
+  justify-content: center;
+  display: flex;
+}
+.carousel .control-arrow,
+.carousel.carousel-slider .control-arrow {
+  background-color: black;
+  height: 50px;
+  margin: auto 0;
+}
+.ahmad {
+  background-color: red;
+}
